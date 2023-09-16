@@ -14,9 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## To connect to the backend api 
-you just need to run the backend server and then it automatically connects to frontend.
-
 ## To add TODO 
 you just need to type (TODO) at enter todo field and just press enter it will add todo 
 there are 3 field where you can see all todo, active todo and done todo.
