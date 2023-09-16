@@ -4,13 +4,6 @@ import { useDispatch } from "react-redux";
 
 import { addNewTodo } from "../redux/actions";
 
-// import Header from "./header";
-// import Todos from "./Todos"
-
-
-
-
-// const TodoForm = ({updateUser}) => {
     const TodoForm = () => {
     const [text, setText] = useState("");
 
@@ -31,8 +24,6 @@ import { addNewTodo } from "../redux/actions";
     return (
         <div>
       
-        {/* <div className="button" onClick={() => updateUser({})} >Logout</div> */}
-        {/* <Header /> */}
         <form className="form" onSubmit={onFormSubmit}>
             <input  
                 placeholder="Enter new todo..."
@@ -41,7 +32,7 @@ import { addNewTodo } from "../redux/actions";
                 value={text}
             />
         </form>
-        {/* <Todos /> */}
+      
         </div>
     )
 }
